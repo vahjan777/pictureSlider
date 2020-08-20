@@ -99,10 +99,10 @@ function backOrNextBtn(value) {
             break
     }
     loadPicture();
-    restartInterval()
+    restartInterval();
 }
 
 function restartInterval() {
     clearInterval(pictureSlider);
     pictureSlider = setInterval(switchPicture, 3000);
-    }
+}
