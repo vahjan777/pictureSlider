@@ -2,10 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>pictureSlider</title>
+    <title>picturesSlider</title>
     <link rel = "stylesheet" type="text/css" href="index.css">
 </head>
 <body>
+    <div class="container1">
+        <button class="backAndNextBtn" value="back" onclick="backOrNextBtn(value)"> < </button>
+        <img src="pictures/3.jpg" class="bigPicture" id="bigPicture" alt="Picture">
+        <button class="backAndNextBtn" value="next" onclick="backOrNextBtn(value)"> > </button>
+    </div>
+    <div class="container2">
+        <img class="pictureMini" id="firstPicture" src="pictures/1.jpg" alt="Picture">
+        <img class="pictureMini" id="secondPicture" src="pictures/2.jpg" alt="Picture">
+        <img class="pictureMiddle" id="thirdPicture" src= "pictures/3.jpg" alt="Picture">
+        <img class="pictureMini" id="fourthPicture" src="pictures/4.jpg" alt="Picture">
+        <img class="pictureMini" id="fifthPicture" src="pictures/5.jpg" alt="Picture">
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
