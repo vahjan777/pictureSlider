@@ -1,4 +1,4 @@
-let bigPicture = document.getElementById("bigPicture"),
+const bigPicture = document.getElementById("bigPicture"),
     firstPicture = document.getElementById("firstPicture"),
     secondPicture = document.getElementById("secondPicture"),
     thirdPicture = document.getElementById("thirdPicture"),
@@ -51,8 +51,8 @@ function loadPicture() {
 }
 
 
-function backOrNextBtn(value) {
-    switch (value) {
+function previousOrNextBtn(value) {
+    switch(value) {
         case "next":
             i++;
             j++;
@@ -75,7 +75,7 @@ function backOrNextBtn(value) {
                 m = 0;
             }
             break;
-        case "back":
+        case "previous":
             i--;
             j--;
             k--;
